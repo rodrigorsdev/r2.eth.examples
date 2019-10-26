@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Crab - ethereum
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="bundle.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Crab - Create Read Append Burn</h1>
+                <form id="create">
+                    <h2>Create user</h2>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <p id="create-result"></p>
+                </form>
+
+                <hr>
+
+                <form id="read">
+                    <h2>Read user</h2>
+                    <div class="form-group">
+                        <label for="read-email">E-mail</label>
+                        <input id="read-email" type="text" class="form-control"></input>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <p id="read-result"></p>
+                </form>
+
+                <hr>
+
+                <form id="append">
+                    <h2>Append user</h2>
+                    <div class="form-group">
+                        <label for="append-email">E-mail</label>
+                        <input id="append-email" type="text" class="form-control"></input>
+                        <label for="append-name">Name</label>
+                        <input id="append-name" type="text" class="form-control"></input>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <p id="append-result"></p>
+                </form>
+
+                <hr>
+
+                <form id="burn">
+                    <h2>Burn user</h2>
+                    <div class="form-group">
+                        <label for="burn-email">E-mail</label>
+                        <input id="burn-email" type="number" class="form-control"></input>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <p id="burn-result"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
