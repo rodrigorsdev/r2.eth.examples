@@ -8,3 +8,5 @@ Crab - Create Read Append Burn
 Simple storage
 
 Wallet
+
+Split payment
